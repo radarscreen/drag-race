@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Drag Race!</title>
-  <link rel="stylesheet" href="css/normalize.css" media="all">
-  <link rel="stylesheet" href="css/main.css" media="all">
+  <meta charset="UTF-8">
+  <title>Drag Race</title>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script type="text/javascript" src="app.js"></script>
 </head>
-<body>
-  <div id="christmas-tree" class="center">
-    pre-stage
-    <div id="pre-stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    stage
-    <div id="stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    </div>
-  </div>
-  <div id="racetrack" class="center">
-    <div class="abs" id="strip">
-      <div id="dragster" class="abs"></div>
-      <div id="pre-staged" class="place abs"></div>
-      <div id="staged" class="place abs"></div>
-      <div id="start" class="abs"></div>
-      <div id="finish" class="place abs"></div>
-    </div>
-  </div>
-  <script src="js/bundle.js"></script>
+
+<body id = "outerSpace">
+
+<!-- <button type="button" class="button">Let's Race!</button> -->
+
+<div class = "container">
+	<div>
+	<div class = "trafficLight Top" id="one">
+	</div>
+		<div class = "trafficLight Top" id="two">
+		</div>
+			<div class = "trafficLight Top" id="three"></div>
+				<div class = "trafficLight Top" id="four">
+				</div>
+	</div>
+
+
+<div class="trafficLight Bottom" id="five"></div>
+<div class="trafficLight Bottom" id="six"></div>
+<div class="trafficLight Bottom" id="seven"></div>
+<div class="trafficLight Bottom" id="eight"></div>
+		
+	
+
+<div>
+<div class = "bigTrafficLight rowZero"></div> 
+<div class = "bigTrafficLight rowZero"></div>
+</div>
+
+<div>
+<div class = "bigTrafficLight rowOne"></div> 
+<div class = "bigTrafficLight rowOne"></div>
+</div>
+
+<div>
+<div class = "bigTrafficLight rowTwo"></div>
+<div class = "bigTrafficLight rowTwo"></div> 
+</div>
+
+<div>
+<div class = "bigTrafficLight rowThree"></div> 
+<div class = "bigTrafficLight rowThree"></div>
+</div>
+
+<div>
+<div class = "bigTrafficLight rowFour"></div>
+<div class = "bigTrafficLight rowFour"></div>
+</div>
+
+
+<div class = "pole"></div>
+<div class = "base"></div>
+
+
+</div>
+
+
+<div id = "racetrack">
+
+  <img src="dragcar.jpeg" id="racecar" alt="racecar"/>
+  <div class = "line" id = "prestage"></div>
+  <div class = "line" id = "stage"></div>
+  <div class = "line" id = "finish"></div>
+
+<!--   </div> -->
+</div>
+  
 </body>
 </html>
